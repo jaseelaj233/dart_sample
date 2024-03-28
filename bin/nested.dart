@@ -15,8 +15,8 @@ void main() {
     print("");
   }
 
-  int a = i;
-  while (a < 10);
-  print(a);
-  a++;
+  // int a = i;
+  // while (a < 10);
+  // print(a);
+  // a++;
 }

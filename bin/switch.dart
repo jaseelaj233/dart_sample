@@ -11,5 +11,6 @@ void main() {
       print("second day of week");
       break;
     default:
+      print("invalid input");
   }
 }

@@ -37,13 +37,14 @@
 
 import 'dart:io';
 
-void main() {
+void main() async {
   // print("enter a number");
   // int a = int.parse(stdin.readLineSync()!);
 
   for (int num = 1; num <= 100; num++) {
     if (num % 5 == 0) {
       if (num != 40 && num != 70) {
+        await Future.delayed(Duration(seconds: 2));
         print(num);
       }
     }
